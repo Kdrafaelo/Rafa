@@ -1,0 +1,63 @@
+:root {
+    --main-color:#FB929E;
+    --text-color:#352daf;
+    --bg-color: #FFF6F6;
+    --big-font:5rem;
+    --h2-font:2.25rem;
+    --p-font:0.9;
+}
+
+
+body {
+    color: var(--text-color);
+    background: var(--bg-color);
+    
+}
+ 
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);    
+    border-radius: 10px;       
+  }
+
+
+
+.foto-perfil {
+    display: block;
+    height: 50px;
+    width: auto;
+    max-width: 50px;
+    border-radius: 50px;
+
+  }
+
+
+  .contato {
+    background: var(--text-color);
+    padding: 70px 0;
+    text-align: center;
+    width: 40%;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+
+
+.container-c {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-contato {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+    width: 35%;
+    height: 30px;   
+    border: none;
+    border-radius: 0.5rem;
+    outline-color: var(--main-color); 
+    padding: 10px;                  
+    }

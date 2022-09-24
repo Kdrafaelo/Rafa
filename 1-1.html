@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha cara</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<style>   
+.foto-perfil {
+    height: 50px;
+    width: auto;
+    max-width: 50px;
+    border-radius: 50px;
+
+  }
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Bem vinde ao meu cantinho</a> 
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Emoji_u1f64b.svg/1024px-Emoji_u1f64b.svg.png" width="auto" height="200px" >
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            
+          </ul>
+          <ul class="navbar-nav">  
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre mim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section class="jumbotron text-center">
+        <div class="home">
+          <img src="WhatsApp Image 2022-09-23 at 21.34.37.jpeg">
+        </div>
+          <h1 class="jumbotron-heading">Rafaela Ochotorena</h1>
+          <p class="lead text-muted"> Psicóloga - Lógicamente de esquerda - GLS </p>
+          <p>
+            <a href="#" class="btn btn-warning my-2">Contato</a>
+          </p>
+        <style>
+          .home {
+            display: flex;
+            justify-content: center;
+            height: 400px;
+            width:auto; 
+            max-width:50% 
+            }
+
+        </style>
+      </section>
+  <!--SOBRE MIM-->
+        <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+          <div class="container">
+            <div class="imag-sobre-mim">
+              <img src="ce4ba83c-c9ff-4d38-92ba-a006a80837b8.jpeg" height="100%" width="100%" max-width="100%" border-radius="100%">
+            </div>
+              <h2 class="jumbotron-heading titulosBrancos">Sobre mim</h2>
+              <p class="lead paragrafoBrancos">
+                Olá sou a Rafa, estudante de psicologia e nova na linguagem da programação. 
+                Estou mais familiarizada com questões humanistas, inclusive, é um dos focos dentro do SUS, né? rs. 
+                Sou uma pessoa disposta a aprender, ouvir e me afetar pelo o outro. Gosto de compartilhar meu 
+                conhecimento sempre que possível.</p>                        
+          </div>
+      </section>
+  
+      <!--HOBBIES-->
+        <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+          <div class="container">
+            <div class="imag-HOBBIES">
+              <style> </style>
+              <img src="https://c.tenor.com/fHTnTlkkKPAAAAAC/picapau-eu-não-digo.gif" height="500px" width="500px" max-width="100%" border-radius="100%">
+            </div>
+              <h2 class="jumbotron-heading titulosBrancos">Hobbies</h2>
+              <p class="lead paragrafoBrancos">
+                Gosto de jogar online, tocar violão, caminhar, 
+                conhecer restaurantes novos, adquirir novos paladares. Um cochilinho de tarde nunca é 
+                uma má opção, já cheguei a convidar para um "date" uma sonequinha de tarde.  
+                Tem muuuito mais porém vou fazer mistério.</p>                        
+          </div>
+      </section>
+
+      
+     <!----contato começa------>
+     
+     <section class="contato" id="contato">
+      <h2> Quer falar comigo????</h2>
+      <div class="imag-HOBBIES">
+        <img src="melman.jpeg" height="500px" width="auto" max-width="100%" border-radius="100%">
+      </div>
+      <form class="container-c">
+      <label for="nomesobrenome">Nome</label>
+      <input type="text" id="nomesobrenome" class="input-contato" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" class="input-contato" required placeholder="seuemail@dominio.com">
+
+      <label for="telefone">Telefone</label>
+      <input type="tel" id="telefone" class="input-contato" required placeholder="(XX) XXXXX-XXXX">
+
+              <label for="mensagem">Qual o motivo do seu contato?</label>
+              <textarea cols="70" rows="10" id="mensagem" class="text" required></textarea>
+              
+              <input type="submit" value="Enviar" class="btn-input">
+       </form>
+       
+   </section>
+
+    
+
+      
+</body>
+</html>
